@@ -1,11 +1,21 @@
-img {
-  width: 700px;
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+
+.profileImage {
+  max-width: 100%;  
+  border-radius: 50%;
 }
 
 h1 {
   color: pink;
   font-size: 50px;
   font-family: Comic Sans MS;
+  text-align: center;
 }
 
 h2 {
@@ -14,9 +24,18 @@ h2 {
   font-family: Arial;
 }
 
+.background {
+  display: flex;
+  justify-content: center;
+  background: black;
+  margin: 0%;
+  padding: 50px;
+}
 p {
   font-size: 20px;
   font-family: Helvetica;
+  color: white;
+  max-width: 60%;
 }
 
 ol {

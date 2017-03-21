@@ -1,6 +1,7 @@
 
 
 
+
 header {
   display: flex;
   justify-content: center;
@@ -28,14 +29,13 @@ ol {
 }
 
 .bookImage {
-  max-width: 50%;
-  float: right;
+  max-width: 100%;
 }
 
 h2 {
-  color: grey;
+  color: #632b38;
   font-size: 30px;
-  font-family: Arial;
+  font-family: Papyrus, serif;
 }
 
 .background {
@@ -59,11 +59,19 @@ ol {
 }
 
 .Fav-Book  {
-  position: relative;
-  bottom: -50px;
-  left: 70px;
+  bottom: -60px;
+  left: 190px;
   font-size: 50px;
   font-family: Helvetica;
   color: pink;
 }
+
+div {
+  border-top: dotted pink 1px;
+  margin-top: 6px;
+}
+
+
+
+
 

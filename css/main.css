@@ -1,4 +1,5 @@
 
+
 header {
   display: flex;
   justify-content: center;
@@ -6,8 +7,28 @@ header {
   flex-flow: column nowrap;
 }
 
+div h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+
+ol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+
+
 .profileImage {
   max-width: 100%;  
+}
+
+.bookImage {
+  max-width: 50%;
+  float: right;
 }
 
 h2 {
@@ -19,10 +40,11 @@ h2 {
 .background {
   display: flex;
   justify-content: center;
-  background: black;
+  background: #8085ad;
   margin: 0%;
   padding: 50px;
 }
+
 p {
   font-size: 20px;
   font-family: Helvetica;
@@ -35,15 +57,13 @@ ol {
   font-family: Helvetica;
 }
 
-a {
-  font-size: 20px;
+.Fav-Book  {
+  position: relative;
+  bottom: -50px;
+  left: 70px;
+  font-size: 50px;
   font-family: Helvetica;
   color: pink;
-}
-
-.bookImage {
-  max-width: 50%;  
-  border-radius: 50%;
 }
 
 

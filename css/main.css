@@ -1,23 +1,13 @@
 
 header {
-  background-color: orange;
-  background-image: url ('../ErinAnn117.github.io/assets/Erin Banner.jpg');
-/*   display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: column nowrap; */
+  flex-flow: column nowrap;
 }
 
 .profileImage {
   max-width: 100%;  
-  border-radius: 50%;
-}
-
-h1 {
-  color: pink;
-  font-size: 50px;
-  font-family: Comic Sans MS;
-  text-align: center;
 }
 
 h2 {
@@ -50,3 +40,10 @@ a {
   font-family: Helvetica;
   color: pink;
 }
+
+.bookImage {
+  max-width: 50%;  
+  border-radius: 50%;
+}
+
+
